@@ -2,6 +2,8 @@ import math as mt
 
 points = [[float(input("x1 ")), float(input("y1 "))], [float(input("x2 ")), float(input("y2 "))], [float(input("x3 ")), float(input("y3 "))]]
 
+### round fonksiyonu: round(a,b) a sayısından b kadar ondalık alır. 
+
 a = round(mt.sqrt((points[1][0]-points[0][0])**2 + (points[1][1]-points[0][1])**2), 3)
 b = round(mt.sqrt((points[2][0]-points[0][0])**2 + (points[2][1]-points[0][1])**2), 3)
 c = round(mt.sqrt((points[2][0]-points[1][0])**2 + (points[2][1]-points[1][1])**2), 3)
